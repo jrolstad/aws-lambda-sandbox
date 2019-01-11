@@ -2,7 +2,7 @@ using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using netcore_plain;
 
-namespace aws_netcore
+namespace netcore_plain
 {
     public class Program
     {
