@@ -33,6 +33,8 @@ namespace netcore_plain
 
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+            services.AddAWSService<Amazon.S3.IAmazonS3>();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
